@@ -1,0 +1,50 @@
+:root {
+  --background-light: url("./assets/coffee-light.jpg");
+  --background-dark: url("./assets/coffee-dark-2.jpg");
+  --background-light: url("./assets/coffee-light.jpg");
+  --color: white;
+  --background-size: cover;
+  --height: 100vh;
+  --width: 100%;
+  --background-repeat: no-repeat;
+}
+
+.text {
+  text-align: center;
+  color: var(--color);
+}
+
+.dark-mode {
+  background-image: var(--background-dark);
+  background-size: var(--background-size);
+  background-repeat: var(--background-repeat);
+  height: var(--height);
+  width: var(--width);
+}
+
+.light-mode {
+  background-image: var(--background-light);
+  background-size: var(--background-size);
+  background-repeat: var(--background-repeat);
+  height: var(--height);
+  width: var(--width);
+}
+
+button {
+  border: none;
+  border-radius: 9px;
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.textBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:130px ;
+  font-size: 70px;
+  letter-spacing: 3px;
+  font-weight: 900;
+}
